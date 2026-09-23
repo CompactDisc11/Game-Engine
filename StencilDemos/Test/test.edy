@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<project>
+	<attribute name="DisplayName" value="test" />
+	<attribute name="ResourcesFolder" value="Resources/" />
+	<attribute name="Command" value="" />
+	<attribute name="Default Map Size" value="23 5 23" />
+	<attribute name="Default Block Size" value="1 1" />
+	<mapattributes />
+	<settings>
+		<hiddenfolders type="StringVector" />
+	</settings>
+</project>
