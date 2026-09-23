@@ -17,7 +17,7 @@ void main()
       //Fix UV
 
   
-    gShadows.rgba = vec4(Normal, 1.0);
+    gShadows.rgba = vec4(0.0, 0.0, 0.0, 1.0);
 
      
      

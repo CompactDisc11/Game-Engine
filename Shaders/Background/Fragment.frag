@@ -40,6 +40,6 @@ void main()
         lighting += diffuse*attenuation;
 
       }
-      FragColor = (texture(gShadows, TexCoord));
+      FragColor.rgb = lighting*texture(gShadows, TexCoord).r;
       FragColor.a = 1.0;
     }
